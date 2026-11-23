@@ -8,13 +8,14 @@
 #include <Adafruit_BME280.h>
 #include <Adafruit_INA219.h>
 
+// définis ssid, password, serveripstr, securitykey 
 // ─── CONFIGURATION ────────────────────────────────────────────────────────────
-const char* ssid          = "Infinix HOT 11"; 
-const char* password      = "2026fatyyy"; 
+const char* ssid          = "*************"; 
+const char* password      = "*************"; 
 
 
-const char* serverIPStr   = " 192.168.152.96"; 
-const char* securityKey   = "123456";
+const char* serverIPStr   = "**********"; 
+const char* securityKey   = "*******";
 
 #define DEFAULT_SLEEP_SEC  60
 #define WIFI_TIMEOUT_SEC   15
