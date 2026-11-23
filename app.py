@@ -20,6 +20,8 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+# define your own db_path
+
 DB_PATH = "iot_data.db"
 
 # ─── STYLES PERSONNALISÉS ─────────────────────────────────────────────────────
